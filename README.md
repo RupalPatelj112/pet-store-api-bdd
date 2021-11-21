@@ -6,7 +6,7 @@
 **Set up:**
 
 **Building**
-Clone this project To clone the project : https://github.com/patelrupal012/petStoreApiBdd
+Clone this project To clone the project : https://github.com/RupalPatelj112/pet-store-api-bdd
 and run Below command : 
 
 `mvn clean install` To build and install the artifacts in your local maven repository - the packaged jar is created in the root target folder.
