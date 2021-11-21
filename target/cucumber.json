@@ -1,0 +1,816 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5301953,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify as a admin of the store i can add a pet record",
+        "description": "",
+        "id": "pet-store---add/create-pets-to-store,-update,-verify-and-remove-a-pet-record.;verify-as-a-admin-of-the-store-i-can-add-a-pet-record;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 111235,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2184579430,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "create Post request to add a new pet with \"1040\" and \"postpuggiesNo1\" to the store",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1040",
+                  "offset": 43
+                },
+                {
+                  "val": "postpuggiesNo1",
+                  "offset": 54
+                }
+              ],
+              "location": "PetstoreSteps.createANewPostRequestAddANewPetToTheStore(int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27747655,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a request to addPet is made",
+            "match": {
+              "location": "PetstoreSteps.aRequestToAddPetIsMade()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74127520,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify the pet is added into pet record",
+            "match": {
+              "location": "PetstoreSteps.iVerifyThePetIsAddedIntoPetRecord()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18813982,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verify the pet id is \"1040\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1040",
+                  "offset": 24
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetIdIs(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20347926,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify the petName is \"postpuggiesNo1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postpuggiesNo1",
+                  "offset": 25
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetNameIs(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@petstore"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          },
+          {
+            "line": 21,
+            "name": "@sanity"
+          },
+          {
+            "line": 21,
+            "name": "@addpet"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 71450,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify as a admin of the store i can add a pet record",
+        "description": "",
+        "id": "pet-store---add/create-pets-to-store,-update,-verify-and-remove-a-pet-record.;verify-as-a-admin-of-the-store-i-can-add-a-pet-record;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 51643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 550646410,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "create Post request to add a new pet with \"1050\" and \"postpuggiesNo2\" to the store",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1050",
+                  "offset": 43
+                },
+                {
+                  "val": "postpuggiesNo2",
+                  "offset": 54
+                }
+              ],
+              "location": "PetstoreSteps.createANewPostRequestAddANewPetToTheStore(int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 932062,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a request to addPet is made",
+            "match": {
+              "location": "PetstoreSteps.aRequestToAddPetIsMade()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15151035,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify the pet is added into pet record",
+            "match": {
+              "location": "PetstoreSteps.iVerifyThePetIsAddedIntoPetRecord()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9201218,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verify the pet id is \"1050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1050",
+                  "offset": 24
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetIdIs(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15356171,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify the petName is \"postpuggiesNo2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postpuggiesNo2",
+                  "offset": 25
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetNameIs(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@petstore"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          },
+          {
+            "line": 21,
+            "name": "@sanity"
+          },
+          {
+            "line": 21,
+            "name": "@addpet"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 66270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Verify as a admin of the store i can get a pet record",
+        "description": "",
+        "id": "pet-store---add/create-pets-to-store,-update,-verify-and-remove-a-pet-record.;verify-as-a-admin-of-the-store-i-can-get-a-pet-record;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 100460,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 536239582,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "create Post request to add a new pet with \"1060\" and \"GetpuggiesNo1\" to the store",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1060",
+                  "offset": 43
+                },
+                {
+                  "val": "GetpuggiesNo1",
+                  "offset": 54
+                }
+              ],
+              "location": "PetstoreSteps.createANewPostRequestAddANewPetToTheStore(int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2556296458,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "pet was created verify the data",
+            "match": {
+              "location": "PetstoreSteps.thenVerifyThePetWasCreatedWithCorrectData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15666449,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I verify the pet is added into pet record",
+            "match": {
+              "location": "PetstoreSteps.iVerifyThePetIsAddedIntoPetRecord()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8098466,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I verify the pet id is \"1060\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1060",
+                  "offset": 24
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetIdIs(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14517755,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I verify the petName is \"GetpuggiesNo1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetpuggiesNo1",
+                  "offset": 25
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetNameIs(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@petstore"
+          },
+          {
+            "line": 35,
+            "name": "@regression"
+          },
+          {
+            "line": 35,
+            "name": "@sanity"
+          },
+          {
+            "line": 35,
+            "name": "@getpet"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 113671,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Verify as a admin of the store i can update a pet record",
+        "description": "",
+        "id": "pet-store---add/create-pets-to-store,-update,-verify-and-remove-a-pet-record.;verify-as-a-admin-of-the-store-i-can-update-a-pet-record;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 25153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 534102946,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "create Post request to add a new pet with \"1080\" and \"labrador\" to the store",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1080",
+                  "offset": 43
+                },
+                {
+                  "val": "labrador",
+                  "offset": 54
+                }
+              ],
+              "location": "PetstoreSteps.createANewPostRequestAddANewPetToTheStore(int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 547452866,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "they can update the pet information using the PUT request with new name \"BabyLabrador\" and \"owner\" to verify the updated information in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BabyLabrador",
+                  "offset": 73
+                },
+                {
+                  "val": "owner",
+                  "offset": 92
+                }
+              ],
+              "location": "PetstoreSteps.theyCanUpdateThePetInformataionUsingThePUTRequestAndVerifyTheUpdatedInformationInResposne(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1463655,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I can verify the record updated with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "PetstoreSteps.iCanVerifyTheRecordUpdatedWithStatusCode(int)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7312654,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I verify the pet id is \"1080\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1080",
+                  "offset": 24
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetIdIs(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7126770,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I verify the petName is \"BabyLabrador\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BabyLabrador",
+                  "offset": 25
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetNameIs(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18955956,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I verify the pettagName is \"owner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "owner",
+                  "offset": 28
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePettagNameIs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@petstore"
+          },
+          {
+            "line": 48,
+            "name": "@regression"
+          },
+          {
+            "line": 48,
+            "name": "@sanity"
+          },
+          {
+            "line": 48,
+            "name": "@updatepet"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51247,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Verify as a admin of the store i can update a pet record",
+        "description": "",
+        "id": "pet-store---add/create-pets-to-store,-update,-verify-and-remove-a-pet-record.;verify-as-a-admin-of-the-store-i-can-update-a-pet-record;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 35528,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PetstoreSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 534190537,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "create Post request to add a new pet with \"1090\" and \"bulldog\" to the store",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1090",
+                  "offset": 43
+                },
+                {
+                  "val": "bulldog",
+                  "offset": 54
+                }
+              ],
+              "location": "PetstoreSteps.createANewPostRequestAddANewPetToTheStore(int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 532170950,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "they can update the pet information using the PUT request with new name \"TeenBulldog\" and \"owner\" to verify the updated information in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TeenBulldog",
+                  "offset": 73
+                },
+                {
+                  "val": "owner",
+                  "offset": 91
+                }
+              ],
+              "location": "PetstoreSteps.theyCanUpdateThePetInformataionUsingThePUTRequestAndVerifyTheUpdatedInformationInResposne(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2437986,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I can verify the record updated with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "PetstoreSteps.iCanVerifyTheRecordUpdatedWithStatusCode(int)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9474992,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I verify the pet id is \"1090\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1090",
+                  "offset": 24
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetIdIs(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7405297,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I verify the petName is \"TeenBulldog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TeenBulldog",
+                  "offset": 25
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePetNameIs(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7605622,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I verify the pettagName is \"owner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "owner",
+                  "offset": 28
+                }
+              ],
+              "location": "PetstoreSteps.iVerifyThePettagNameIs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@petstore"
+          },
+          {
+            "line": 48,
+            "name": "@regression"
+          },
+          {
+            "line": 48,
+            "name": "@sanity"
+          },
+          {
+            "line": 48,
+            "name": "@updatepet"
+          }
+        ]
+      }
+    ],
+    "name": "Pet store - add/create pets to store, update, verify and remove a pet record.",
+    "description": "\nAs a store admin\nI want to utilise endpoint of the pet store API\u0027s\nSo I can add \u0026 update and delete my pet store details in the store",
+    "id": "pet-store---add/create-pets-to-store,-update,-verify-and-remove-a-pet-record.",
+    "keyword": "Feature",
+    "uri": "pet/petstore/petstore.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@petstore"
+      }
+    ]
+  }
+]
